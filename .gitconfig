@@ -1,0 +1,40 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[user]
+	name = terashim
+	email = terashim@terashim.com
+[commit]
+	template = ~/.stCommitMsg
+[alias]
+    s   = status
+    st  = status
+
+    b   = branch
+    br  = branch
+    sw  = switch
+    nb  = checkout -b
+
+    l  = log --pretty=oneline
+    ll = log --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    la = log --graph --all --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+    co = checkout
+    cm = commit -m
+
+    a  = add
+    aa = add -A .
+    unstage = reset --soft HEAD^
+    aacm = !git add -A . && git commit -m
+
+    amend = commit --amend -m
+
+    f  = fetch
+    ps = push
+    pl = pull
+
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[push]
+	default = current
