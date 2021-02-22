@@ -42,5 +42,6 @@
     "custom_shell_command": "/usr/bin/bash",
     "jobs_tab_visibility": "closed",
     "default_project_location": "~",
-    "show_hidden_files": true
+    "show_hidden_files": true,
+    "graphics_backend": "ragg"
 }
