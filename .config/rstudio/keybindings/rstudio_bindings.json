@@ -1,3 +1,8 @@
 {
-    "testPackage": "Ctrl+Shift+T"
+    "testPackage": "Ctrl+Shift+T",
+    "roxygenizePackage": "Ctrl+Shift+D",
+    "commentUncomment": "Cmd+/",
+    "quickAddNext": "Cmd+D",
+    "addCursorAbove": "Alt+Shift+Cmd+Up",
+    "addCursorBelow": "Alt+Shift+Cmd+Down"
 }
