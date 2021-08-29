@@ -7,9 +7,10 @@ cd $DOTFILES_ROOT
 
 DOTFILES=$(cat << EOF
 .gitconfig
-.gitignore_global
+.config/git/ignore
 .config/rstudio
 .bashrc
+.ssh/config
 EOF
 )
 

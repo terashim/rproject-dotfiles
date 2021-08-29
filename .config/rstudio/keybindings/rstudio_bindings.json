@@ -4,5 +4,7 @@
     "commentUncomment": "Cmd+/",
     "quickAddNext": "Cmd+D",
     "addCursorAbove": "Alt+Shift+Cmd+Up",
-    "addCursorBelow": "Alt+Shift+Cmd+Down"
+    "addCursorBelow": "Alt+Shift+Cmd+Down",
+    "debugBreakpoint": "Shift+F9",
+    "sendToTerminal": ""
 }
