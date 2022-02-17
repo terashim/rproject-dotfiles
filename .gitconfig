@@ -36,3 +36,5 @@
 	defaultBranch = main
 [push]
 	default = current
+[core]
+	excludesFile = ~/.gitignore
